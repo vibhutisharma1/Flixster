@@ -2,7 +2,7 @@
 
 **Flixster** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **10** hours spent in total
+Time spent: **11** hours spent in total
 
 ## User Stories
 
@@ -42,6 +42,8 @@ GIF created with [Kap](https://getkap.co/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+I encountered challenges in uploading the youtube video on the app since we had to retreive the id from the movie lists then get the first video from all the different trailers. Thus, I was confused as to how to code, but after getting help from the TA's, my peers, and google I used intent, an setOnClickListener, onSuccess method, and the videoId it worked! The other componenets like recyclerView were used in the SimpleToDo app so, it was easier to complete those parts.
 
 ## Open-source libraries used
 
