@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#000000">
 
     <ImageView
         android:id="@+id/ivPoster"
@@ -17,25 +18,30 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="285dp"
-        android:layout_height="44dp"
+        android:layout_width="371dp"
+        android:layout_height="57dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="-1dp"
         android:layout_marginTop="-1dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:fontFamily="@font/amiko_semibold"
+        android:textColor="#ECECEC"
         android:textSize="24sp"
         tools:text="Luca" />
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="367dp"
+        android:layout_height="93dp"
         android:layout_below="@+id/tvTitle"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="6dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:fontFamily="@font/amiko"
+        android:textColor="#F3EFEF"
         tools:text="Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface" />
 </RelativeLayout>
