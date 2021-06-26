@@ -24,7 +24,7 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] The YouTube video auto plays instead of having to click it
+* [x] The YouTube video autoplays instead of having to click it
 * [x] Customized font size, color, and design for aesthetics 
 * [x] Changed background color to black and top bar to red to mimic movie impression
 * [x] Added play button overlay on both orientations for easier usage
